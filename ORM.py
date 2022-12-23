@@ -36,6 +36,9 @@ class NameInLanguage(BaseModel):
         )
 
 
+
+
+
 class WikibioLanguage(BaseModel):
     composer = ForeignKeyField(Composer)
     language = ForeignKeyField(Language)
